@@ -1,0 +1,24 @@
+.messanger-container {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;;
+}
+
+.messanger-body {
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 2em;
+}
+
+.messanger-footer {
+  flex-shrink: 0;
+}
+
+.messanger-header {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 1% 0px;
+}

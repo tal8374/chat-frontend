@@ -1,0 +1,7 @@
+.login-container {
+    display: block;
+    width: 65%;
+    margin: 2% auto;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 1%;
+}
